@@ -1,0 +1,2 @@
+# Inser-o-Front-End--Aura-Replica-da-p-gina-do-Spotify.
+Neste projeto as pessoas fazem uma réplica da página do Spotify, com o conteúdo de HTML, CSS e JS na prática, também, as pessoas aprendem e colocam em prática conceito de estilos avançados, transformação dos mesmos, styles...  Media Queries e manipulação do DOM com JS.  Alguns conceitos introdutórios também foram implementados em react e Angular.
