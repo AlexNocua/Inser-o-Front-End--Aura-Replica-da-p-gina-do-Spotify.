@@ -1,0 +1,33 @@
+{
+  "artists": [
+    { "id": 1, "name": "Foo Fighters", "genre": "Rock", "urlImg": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15" },
+    { "id": 2, "name": "Michael Jackson", "genre": "Pop", "urlImg": "https://i.scdn.co/image/ab676161000051740e08ea2c4d6789fbf5cbe0aa" },
+    { "id": 3, "name": "Emicida", "genre": "Hip Hop", "urlImg": "https://i.scdn.co/image/ab67616100005174908b4b4bc90e1518b68b4068" },
+    { "id": 4, "name": "Chitãozinho e Xororó", "genre": "Sertanejo", "urlImg": "https://i.scdn.co/image/ab676161000051744606c59411c57f7b49588be4" },
+    { "id": 5, "name": "Mc Coringa", "genre": "Funk", "urlImg": "https://i.scdn.co/image/ab67616d00001e02fe8f6dd361ad0f12b88c7f56" },
+    { "id": 6, "name": "Arlindo Cruz", "genre": "Samba", "urlImg": "https://i.scdn.co/image/ab67616100005174181873f93056642d7b340839" },
+    { "id": 7, "name": "Caetano Veloso", "genre": "MPB", "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757" },
+    { "id": 8, "name": "Queen", "genre": "Rock", "urlImg": "https://www.udiscovermusica.com/wp-content/uploads/sites/7/2022/12/Queen-II-album-cover-820-1536x1536-1.jpeg" },
+    { "id": 9, "name": "Beyoncé", "genre": "Pop", "urlImg": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Beyonce_-_The_Formation_World_Tour%2C_at_Wembley_Stadium_in_London%2C_England.jpg" },
+    { "id": 10, "name": "Kendrick Lamar", "genre": "Hip Hop", "urlImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Pulitzer2018-portraits-kendrick-lamar.jpg/330px-Pulitzer2018-portraits-kendrick-lamar.jpg" },
+    { "id": 11, "name": "Marília Mendonça", "genre": "Sertanejo", "urlImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Mar%C3%ADlia_Mendon%C3%A7a_no_programa_Lady_Night_em_2018.jpg/330px-Mar%C3%ADlia_Mendon%C3%A7a_no_programa_Lady_Night_em_2018.jpg" },
+    { "id": 12, "name": "Anitta", "genre": "Funk", "urlImg": "https://www.elespectador.com/resizer/BYMteyoFLGE19B1izC9Rob-bRxk=/920x613/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/IWFYNYFC7ZE2VMUHTURFK7TF7A.jpeg" },
+    { "id": 13, "name": "Zeca Pagodinho", "genre": "Samba", "urlImg": "https://i.scdn.co/image/ab67616d0000b2738989e0498a9c8cffd6a3bf23" },
+    { "id": 14, "name": "Gilberto Gil", "genre": "MPB", "urlImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Photo_-_Festival_de_Cornouaille_2010_-_Gilberto_Gil_en_concert_le_19_juillet_-_017.JPG/1024px-Photo_-_Festival_de_Cornouaille_2010_-_Gilberto_Gil_en_concert_le_19_juillet_-_017.JPG" },
+    { "id": 15, "name": "Ed Sheeran", "genre": "Pop", "urlImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/330px-Ed_Sheeran-6886_%28cropped%29.jpg" },
+    { "id": 16, "name": "Rihanna", "genre": "R&B", "urlImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rihanna_Fenty_2018.png/345px-Rihanna_Fenty_2018.png" },
+    { "id": 17, "name": "Coldplay", "genre": "Rock", "urlImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/ColdplayBBC071221_%28cropped%29.jpg/1200px-ColdplayBBC071221_%28cropped%29.jpg" },
+    { "id": 18, "name": "Drake", "genre": "Hip Hop", "urlImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Drake_July_2016.jpg/360px-Drake_July_2016.jpg" },
+    { "id": 19, "name": "Adele", "genre": "Pop", "urlImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Adele_for_Vogue_in_2021.png/375px-Adele_for_Vogue_in_2021.png" },
+    { "id": 20, "name": "Shakira", "genre": "Pop", "urlImg": "https://static1.mujerhoy.com/www/multimedia/202301/12/media/cortadas/shakira-cambios-look-pelo-kzqD-U190238490989BCD-1248x1248@MujerHoy.jpg" },
+    { "id": 21, "name": "Elton John", "genre": "Pop/Rock", "urlImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Glasto2023_%28419_of_468%29_%2853009098414%29_%28cropped%29.jpg/800px-Glasto2023_%28419_of_468%29_%2853009098414%29_%28cropped%29.jpg" },
+    { "id": 22, "name": "Metallica", "genre": "Heavy Metal", "urlImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Metallica_at_The_O2_Arena_London_2008.jpg/1200px-Metallica_at_The_O2_Arena_London_2008.jpg" },
+    { "id": 23, "name": "Eminem", "genre": "Hip Hop", "urlImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Eminem_en_Detroit_2002.jpg/330px-Eminem_en_Detroit_2002.jpg" },
+    { "id": 24, "name": "Madonna", "genre": "Pop", "urlImg": "https://hips.hearstapps.com/hmg-prod/images/65th-grammy-awards-madonna-speaks-on-stage-at-the-65th-news-photo-1690801397.jpg?crop=0.669xw:1.00xh;0.0728xw,0&resize=1200:*" },
+    { "id": 25, "name": "The Beatles", "genre": "Rock", "urlImg": "https://cdn.britannica.com/18/136518-050-CD0E49C6/The-Beatles-Ringo-Starr-Paul-McCartney-George.jpg" },
+    { "id": 27, "name": "U2", "genre": "Rock", "urlImg": "https://static.wikia.nocookie.net/lossimpson/images/0/02/U26.jpg/revision/latest?cb=20111220210807&path-prefix=es" },
+    { "id": 28, "name": "Jay-Z", "genre": "Hip Hop", "urlImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Jay-Z_2%2C_2011.jpg/800px-Jay-Z_2%2C_2011.jpg" },
+    { "id": 29, "name": "Taylor Swift", "genre": "Pop", "urlImg": "https://media.glamour.es/photos/645ca87bb44762d111747460/4:3/w_1704,h_1278,c_limit/TAYLOR%20GOOD%20FOR%20AGE%20100523%20GettyImages-1418876433_L.jpg" },
+    { "id": 30, "name": "Justin Bieber", "genre": "Pop", "urlImg": "https://s.france24.com/media/display/ba80de5a-c06a-11eb-9594-005056bf87d6/w:1280/p:1x1/000_1OG6IB.jpg" }
+  ]
+}

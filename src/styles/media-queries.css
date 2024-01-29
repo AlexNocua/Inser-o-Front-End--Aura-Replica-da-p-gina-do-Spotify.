@@ -1,0 +1,38 @@
+/*Manejo de resoluciones para dispositivos*/
+
+@media screen and (max-width:1015px){
+    .offer__list-item{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width:990px){
+    .offer__list-item{
+        grid-template-columns: 1fr ;
+    }
+    
+    .header__navigation{
+        flex-direction: column;
+    }
+    .information-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .header__seach{
+        margin: 10px 0px 10px 0px;
+    }
+}
+
+
+@media screen and (max-width:414){
+
+    .main-container .playlist-container {
+        min-width: 700px;
+    }
+    .offer__list-item{
+        grid-template-columns: 1fr ;
+
+    }
+    
+}

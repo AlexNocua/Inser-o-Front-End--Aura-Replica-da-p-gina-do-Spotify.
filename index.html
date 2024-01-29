@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Imercion</title>
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css">
+    <link rel="stylesheet" href="./src/styles/media-queries.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+
+
+    <div class="sidebar">
+        <nav class="sidebar_navigation">
+            <div class="logo">
+                <a href="">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="Logo Spotify">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-house" viewBox="0 0 16 16">
+                            <path
+                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+                        </svg>
+                        <span>Inicio</span>
+                    </a>
+                </li>
+
+                <li><a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!--metodologia de organizacion de css-->
+        <div class="library">
+            <div class="library_content">
+                <button class="library_button">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-journals" viewBox="0 0 16 16">
+                            <path
+                                d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2" />
+                            <path
+                                d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0" />
+                        </svg>
+                        <!--icono-->
+                    </span>
+                    <span>Su biblioteca:</span>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-plus-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2" />
+                        </svg><!--icono de buscar.-->
+                    </span>
+                </button>
+            </div>
+            <div class="offer__scroll-container">
+                <section class="section-playlist">
+                    <div class="section-playlist__content">
+                        <span class="text title"> Crie sua primeira playlist</span>
+                        <span class="text subtitle">É facil, vamos te ajudar</span>
+                        <button class="section-playlist__button ">
+                            <span>Criar playlist</span>
+                        </button>
+                    </div>
+                </section>
+
+                <section class="section-podcasts">
+                    <div class="section-podcasts-content">
+                        <span class="text title"> Que tal um podcasts novo?</span>
+                        <span class="text subtitle">Avisaremos você sobre novos episódios.</span>
+                        <button class="section-potcasts__button ">
+                            <span>Explore podcast</span>
+                        </button>
+                    </div>
+                </section>
+            </div>
+            <div class="cookies">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path fill="#c6c2d1"
+                            d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                    </svg>
+                    Cookies </a>
+
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path fill="#c6c2d1"
+                            d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                    </svg>
+                    Legal </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path fill="#c6c2d1"
+                            d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                    </svg>
+                    Centro de privacidade<br> </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path fill="#c6c2d1"
+                            d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                    </svg>
+                    Política de privacidade</a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path fill="#c6c2d1"
+                            d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                    </svg>
+                    Sobre anúncios <br></a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path fill="#c6c2d1"
+                            d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                    </svg>
+                    Acessibilidade</a>
+
+            </div>
+            <div class="languages">
+                <button class="languages__button">
+                    <!--icono de globo-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-globe-americas" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z" />
+                    </svg>
+                    <span>Language Portugues</span>
+                </button>
+            </div>
+        </div>
+    </div> <!--div.nombre de la clase-->
+
+    <main>
+        <!--Idea semantica de el CONTENIDO PRINCIPAL DE LA PAGINA-->
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="seta esquereda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="seta dereita">
+                    </button>
+                </div>
+                <div class="header__seach">
+                    <img src="src/assets/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que voce que ouvir?">
+                </div>
+                <div class="header__login">
+                    <button class="subcribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+
+            </nav>
+
+            <div class="playlist-container">
+                <div id="result-playlists">
+                    <div class="playlist">
+                        <div class="dia"><!-- COLOCAR O BOM DIA | BOA TARDE | BOA NOITE -->
+                            <h1 id="greeting"><br></h1>
+                            <h2 class="session">Navegar por todas as seções</h2>
+                        </div>
+                        <div class="information">
+                            <a href="">Mostrar tudo <br><br></a>
+                            </span>
+                            <p id="hora"></p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- LIST ITEM 1 -->
+
+                    <div class="offer__scroll-container">
+                        <div class="offer__list">
+                            <section class="offer__list-item">
+                                <!-- CARD 1 -->
+                                <a href="" class="cards">
+                                    <div class="cards card1">
+                                        <img src="./src/assets/playlist/1.jpeg" alt="" />
+                                        <span>Boas festas</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 2 -->
+                                <a href="" class="cards">
+                                    <div class="cards card2">
+                                        <img src="./src/assets/playlist/2.png" alt="" />
+                                        <span>Feitos para você</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 3 -->
+                                <a href="" class="cards">
+                                    <div class="cards card3">
+                                        <img src="./src/assets/playlist/3.jpeg" alt="" />
+                                        <span>Lançamentos</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 4 -->
+                                <a href="" class="cards">
+                                    <div class="cards card4">
+                                        <img src="./src/assets/playlist/4.jpeg" alt="" />
+                                        <span>Creators</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 5 -->
+                                <a href="" class="cards">
+                                    <div class="cards card5">
+                                        <img src="./src/assets/playlist/5.jpeg" alt="" />
+                                        <span>Para treinar</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 6 -->
+                                <a href="" class="cards">
+                                    <div class="cards card6">
+                                        <img src="./src/assets/playlist/6.jpeg" alt="" />
+                                        <span>Podcasts</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 7 -->
+                                <a href="" class="cards">
+                                    <div class="cards card7">
+                                        <img src="./src/assets/playlist/7.jpeg" alt="" />
+                                        <span>Sertanejo</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 8 -->
+                                <a href="" class="cards">
+                                    <div class="cards card8">
+                                        <img src="./src/assets/playlist/8.jpeg" alt="" />
+                                        <span>Samba e pagode</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 9 -->
+                                <a href="" class="cards">
+                                    <div class="cards card9">
+                                        <img src="./src/assets/playlist/9.jpeg" alt="" />
+                                        <span>Funk</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 10 -->
+                                <a href="" class="cards">
+                                    <div class="cards card10">
+                                        <img src="./src/assets/playlist/10.jpeg" alt="" />
+                                        <span>MPB</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 11 -->
+                                <a href="" class="cards">
+                                    <div class="cards card11">
+                                        <img src="./src/assets/playlist/11.jpeg" alt="" />
+                                        <span>Rock</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 12 -->
+                                <a href="" class="cards">
+                                    <div class="cards card12">
+                                        <img src="./src/assets/playlist/12.jpeg" alt="" />
+                                        <span>Hip Hop</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 13 -->
+                                <a href="" class="cards">
+                                    <div class="cards card13">
+                                        <img src="./src/assets/playlist/13.jpeg" alt="" />
+                                        <span>Indie</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 14 -->
+                                <a href="" class="cards">
+                                    <div class="cards card14">
+                                        <img src="./src/assets/playlist/14.jpeg" alt="" />
+                                        <span>Relax</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 15 -->
+                                <a href="" class="cards">
+                                    <div class="cards card15">
+                                        <img src="./src/assets/playlist/15.jpeg" alt="" />
+                                        <span>Música Latina</span>
+                                    </div>
+                                </a>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="result-artist" class="hidden">
+                    <div class="grid-container">
+                        <div class="artist-card" id="">
+                            <div class="card-img">
+                                <img id="artist-img" class="artist-img" />
+                                <div class="play">
+                                    <span class="fa fa-solid fa-play"></span>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <a title="Foo Fighters" class="vst" href="">
+                                    <span class="artist-name" id="artist-name"></span>
+                                    <span class="artist-categorie"><br>Artista </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="information-container">
+                    <div class="informations">
+                        <div class="sections">
+                            <span class="text-tittle">Empresa<br><br></span>
+                            <div class="links-text">
+                                <a href="">Sobre<br><br></a>
+                                <a href="">Empregos<br><br></a>
+                                <a href="">For the Record<br></a>
+                            </div>
+
+
+                        </div>
+                        <div class="sections">
+                            <span class="text-tittle">Comunidades<br><br></span>
+                            <div class="links-text">
+                                <a href="">Para Artistas <br><br></a>
+                                <a href="">Desenvolvedores <br><br></a>
+                                <a href="">Publicidade<br<br></a>
+                                <a href="">Investidores<br><br></a>
+                                <a href="">Fornecedores<br></a>
+                            </div>
+
+
+                        </div>
+                        <div class="sections">
+                            <span class="text-tittle">Links<br><br></span>
+                            <div class="links-text"> <a href="">Suporte<br><br></a>
+                                <a href="">Aplicativo móvel grátis<br></a>
+                            </div>
+
+
+                        </div>
+                        <div class="sections">
+                            <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                </svg></button>
+                            <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-twitter" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                                </svg></button>
+                            <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                </svg></button>
+
+
+                        </div>
+                    </div>
+                    <span class="derechos">© 2024 Spotify AB</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="text">
+            <p class="tittle">Testar o premium de Graca</p>
+            <p class="paragraph">Inscreva-se para curtir música ilimitada e podcast só com alguns anúncios. Nao
+                precisa de cartao
+                de crédito.</p>
+        </div>
+
+
+        <div class="button">
+            <button> Inscreva-se gratis</button>
+        </div>
+
+        </div>
+    </footer> <!---->
+</body>
+
+<script src="script.js"></script>
+
+</html>

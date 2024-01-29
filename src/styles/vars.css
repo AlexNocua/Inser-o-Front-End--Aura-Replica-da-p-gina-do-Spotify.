@@ -1,0 +1,10 @@
+/*Raiz del proyecto donde la gente coloca los estilos*/
+:root {
+    --font-dm-sans: "DM Sans", sans-serif;
+    /*variable*/
+    /*colors*/
+    --bg-icon : #131313;
+    --text-base-light: #fff;
+    --bg-arrow-color : rgba(0,0,07)
+    
+}
